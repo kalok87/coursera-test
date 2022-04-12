@@ -29,20 +29,18 @@
   border: 1px solid black;
   padding-left: 10px;
   padding-right: 10px;
+  padding-top: 2em;
   position: relative;
 }
 
 .label {
-  background-color: green;
   position: absolute;
-  width: fit-content;
+  text-align: center;
   inset: 0px 0px auto auto;
   border: 1px solid black;
-  height: 15%;
-}
-
-.manu-text > p {
-  margin-top: 2em;
+  padding: 10px;
+  margin: 0px;
+  overflow: hidden;
 }
 
 #label-chicken{
